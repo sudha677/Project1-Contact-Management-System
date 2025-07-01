@@ -1,0 +1,69 @@
+<!DOCTYPE suite SYSTEM "testng-1.0.dtd" >
+
+<suite name="ContactManagementSuite" parallel="tests"
+	thread-count="2">
+	<listeners>
+		<listener
+			class-name="contactmanagementsystem.com.sudha.util.ExtentListener" />
+	</listeners>
+	<test name="Chrome Tests">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class
+				name="contactmanagementsystem.com.sudha.tests.SignUpTest" />
+			<class name="contactmanagementsystem.com.sudha.tests.LoginTest" />
+			<class
+				name="contactmanagementsystem.com.sudha.tests.AddContactTests" />
+			<class
+				name="contactmanagementsystem.com.sudha.tests.EditContactTests" />
+			<class
+				name="contactmanagementsystem.com.sudha.tests.DeleteContactTest" />
+			<class
+				name="contactmanagementsystem.com.sudha.tests.SessionTest" />
+			<class
+				name="contactmanagementsystem.com.sudha.tests.ValidationTest" />
+			<class name="contactmanagementsystem.com.sudha.tests.APITest" />
+
+		</classes>
+	</test>
+
+	<test name="Firefox Tests">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class
+				name="contactmanagementsystem.com.sudha.tests.SignUpTest" />
+			<class name="contactmanagementsystem.com.sudha.tests.LoginTest" />
+			<class
+				name="contactmanagementsystem.com.sudha.tests.AddContactTests" />
+			<class
+				name="contactmanagementsystem.com.sudha.tests.EditContactTests" />
+			<class
+				name="contactmanagementsystem.com.sudha.tests.DeleteContactTest" />
+			<class
+				name="contactmanagementsystem.com.sudha.tests.SessionTest" />
+			<class
+				name="contactmanagementsystem.com.sudha.tests.ValidationTest" />
+			<class name="contactmanagementsystem.com.sudha.tests.APITest" />
+		</classes>
+	</test>
+
+	<test name="Edge Tests">
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class
+				name="contactmanagementsystem.com.sudha.tests.SignUpTest" />
+			<class name="contactmanagementsystem.com.sudha.tests.LoginTest" />
+			<class
+				name="contactmanagementsystem.com.sudha.tests.AddContactTests" />
+			<class
+				name="contactmanagementsystem.com.sudha.tests.EditContactTests" />
+			<class
+				name="contactmanagementsystem.com.sudha.tests.DeleteContactTest" />
+			<class
+				name="contactmanagementsystem.com.sudha.tests.SessionTest" />
+			<class
+				name="contactmanagementsystem.com.sudha.tests.ValidationTest" />
+			<class name="contactmanagementsystem.com.sudha.tests.APITest" />
+		</classes>
+	</test>
+</suite>

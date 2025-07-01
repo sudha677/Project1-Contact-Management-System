@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [ContactManagementSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="contactmanagementsystem.com.sudha.util.ExtentListener"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="Firefox Tests(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="contactmanagementsystem.com.sudha.tests.ValidationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="cleanReports"/>
+          <include name="verifyUnicodeAndEmojiInAddress"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- contactmanagementsystem.com.sudha.tests.ValidationTest -->
+      <class name="contactmanagementsystem.com.sudha.tests.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="cleanReports"/>
+          <include name="verifyPasswordFieldMasksInput"/>
+          <include name="tearDown"/>
+          <include name="validLoginTest"/>
+        </methods>
+      </class> <!-- contactmanagementsystem.com.sudha.tests.LoginTest -->
+      <class name="contactmanagementsystem.com.sudha.tests.SignUpTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="cleanReports"/>
+          <include name="tearDown"/>
+          <include name="beforeEachBrowser"/>
+          <include name="validSignUp"/>
+        </methods>
+      </class> <!-- contactmanagementsystem.com.sudha.tests.SignUpTest -->
+      <class name="contactmanagementsystem.com.sudha.tests.APITest">
+        <methods>
+          <include name="setUp"/>
+          <include name="cleanReports"/>
+          <include name="tearDown"/>
+          <include name="testDeleteUserAPI"/>
+        </methods>
+      </class> <!-- contactmanagementsystem.com.sudha.tests.APITest -->
+      <class name="contactmanagementsystem.com.sudha.tests.DeleteContactTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="cleanReports"/>
+          <include name="tearDown"/>
+          <include name="validateAlertText"/>
+          <include name="deleteContactAndRefreshTest"/>
+        </methods>
+      </class> <!-- contactmanagementsystem.com.sudha.tests.DeleteContactTest -->
+      <class name="contactmanagementsystem.com.sudha.tests.EditContactTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="validCancelEditTest"/>
+          <include name="cleanReports"/>
+          <include name="valididationCheckEditTest"/>
+          <include name="tearDown"/>
+          <include name="validEditContactTest"/>
+        </methods>
+      </class> <!-- contactmanagementsystem.com.sudha.tests.EditContactTests -->
+      <class name="contactmanagementsystem.com.sudha.tests.AddContactTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="cleanReports"/>
+          <include name="tearDown"/>
+          <include name="validAddContactTest"/>
+        </methods>
+      </class> <!-- contactmanagementsystem.com.sudha.tests.AddContactTests -->
+    </classes>
+  </test> <!-- Firefox Tests(failed) -->
+</suite> <!-- Failed suite [ContactManagementSuite] -->

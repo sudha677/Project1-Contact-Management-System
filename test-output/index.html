@@ -1,0 +1,1544 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-ContactManagementSuite" class="navigator-link">
+              <span class="suite-name border-failed">ContactManagementSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-ContactManagementSuite" class="navigator-link ">
+                    <span>C:\Users\sures\eclipse-workspace\SudhaLearning\ContactManagementSystem\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-ContactManagementSuite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-ContactManagementSuite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-ContactManagementSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-ContactManagementSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-ContactManagementSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-ContactManagementSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">27 methods, 5 failed,  3 skipped,  19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ContactManagementSuite" class="hide-methods failed suite-ContactManagementSuite"> (hide)</a> <!-- hide-methods failed suite-ContactManagementSuite -->
+                      <a href="#" panel-name="suite-ContactManagementSuite" class="show-methods failed suite-ContactManagementSuite"> (show)</a> <!-- show-methods failed suite-ContactManagementSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-ContactManagementSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.DeleteContactTest" class="method navigator-link" hash-for-method="deleteContactAndRefreshTest">deleteContactAndRefreshTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.EditContactTests" class="method navigator-link" hash-for-method="validEditContactTest">validEditContactTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.DeleteContactTest" class="method navigator-link" hash-for-method="validateAlertText">validateAlertText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.LoginTest" class="method navigator-link" hash-for-method="verifyPasswordFieldMasksInput">verifyPasswordFieldMasksInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.ValidationTest" class="method navigator-link" hash-for-method="verifyUnicodeAndEmojiInAddress">verifyUnicodeAndEmojiInAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ContactManagementSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-ContactManagementSuite" class="hide-methods skipped suite-ContactManagementSuite"> (hide)</a> <!-- hide-methods skipped suite-ContactManagementSuite -->
+                      <a href="#" panel-name="suite-ContactManagementSuite" class="show-methods skipped suite-ContactManagementSuite"> (show)</a> <!-- show-methods skipped suite-ContactManagementSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-ContactManagementSuite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.APITest" class="method navigator-link" hash-for-method="testDeleteUserAPI">testDeleteUserAPI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.EditContactTests" class="method navigator-link" hash-for-method="validCancelEditTest">validCancelEditTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.EditContactTests" class="method navigator-link" hash-for-method="valididationCheckEditTest">valididationCheckEditTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-ContactManagementSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ContactManagementSuite" class="hide-methods passed suite-ContactManagementSuite"> (hide)</a> <!-- hide-methods passed suite-ContactManagementSuite -->
+                      <a href="#" panel-name="suite-ContactManagementSuite" class="show-methods passed suite-ContactManagementSuite"> (show)</a> <!-- show-methods passed suite-ContactManagementSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-ContactManagementSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.SignUpTest" class="method navigator-link" hash-for-method="blankSignUp">blankSignUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.AddContactTests" class="method navigator-link" hash-for-method="duplicateContactDetails">duplicateContactDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.LoginTest" class="method navigator-link" hash-for-method="emptyLoginTest">emptyLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.SignUpTest" class="method navigator-link" hash-for-method="inValidSignUp">inValidSignUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.AddContactTests" class="method navigator-link" hash-for-method="invalidAddContactTest">invalidAddContactTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.LoginTest" class="method navigator-link" hash-for-method="invalidEmailLoginTest">invalidEmailLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.LoginTest" class="method navigator-link" hash-for-method="invalidLoginTest">invalidLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.AddContactTests" class="method navigator-link" hash-for-method="invalidPhoneNumberTest">invalidPhoneNumberTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.SignUpTest" class="method navigator-link" hash-for-method="invalidSignUpPasswordDoNotMatch">invalidSignUpPasswordDoNotMatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.SignUpTest" class="method navigator-link" hash-for-method="invalidSignUpWrongEmailId">invalidSignUpWrongEmailId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.LoginTest" class="method navigator-link" hash-for-method="openSignupPage">openSignupPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.AddContactTests" class="method navigator-link" hash-for-method="validAddContactTest">validAddContactTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.LoginTest" class="method navigator-link" hash-for-method="validLoginTest">validLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.SignUpTest" class="method navigator-link" hash-for-method="validSignUp">validSignUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.AddContactTests" class="method navigator-link" hash-for-method="validateContactFormResetTest">validateContactFormResetTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.LoginTest" class="method navigator-link" hash-for-method="validateHeaderText">validateHeaderText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.ValidationTest" class="method navigator-link" hash-for-method="verifyFirstNameMaxCharacterLimit">verifyFirstNameMaxCharacterLimit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.SessionTest" class="method navigator-link" hash-for-method="verifyLoginStateOnRefresh">verifyLoginStateOnRefresh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactManagementSuite" title="contactmanagementsystem.com.sudha.tests.SessionTest" class="method navigator-link" hash-for-method="verifyLogoutRedirectToLogin">verifyLogoutRedirectToLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ContactManagementSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ContactManagementSuite" class="panel ContactManagementSuite">
+          <div class="suite-ContactManagementSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">contactmanagementsystem.com.sudha.tests.ValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUnicodeAndEmojiInAddress">
+                  </a> <!-- verifyUnicodeAndEmojiInAddress -->
+                  <span class="method-name">verifyUnicodeAndEmojiInAddress</span>
+                  <div class="stack-trace">java.lang.AssertionError: Address not containing full Unicode value expected [true] but found [false]
+	at contactmanagementsystem.com.sudha.tests.ValidationTest.verifyUnicodeAndEmojiInAddress(ValidationTest.java:61)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Unicode and emojis in address field)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ContactManagementSuite-class-failed -->
+          <div class="suite-ContactManagementSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">contactmanagementsystem.com.sudha.tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPasswordFieldMasksInput">
+                  </a> <!-- verifyPasswordFieldMasksInput -->
+                  <span class="method-name">verifyPasswordFieldMasksInput</span>
+                  <div class="stack-trace">java.lang.ClassCastException: class org.openqa.selenium.By$ById cannot be cast to class org.openqa.selenium.WebElement (org.openqa.selenium.By$ById and org.openqa.selenium.WebElement are in unnamed module of loader &apos;app&apos;)
+	at contactmanagementsystem.com.sudha.tests.LoginTest.verifyPasswordFieldMasksInput(LoginTest.java:91)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify password field masks input)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ContactManagementSuite-class-failed -->
+          <div class="suite-ContactManagementSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">contactmanagementsystem.com.sudha.tests.DeleteContactTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteContactAndRefreshTest">
+                  </a> <!-- deleteContactAndRefreshTest -->
+                  <span class="method-name">deleteContactAndRefreshTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at contactmanagementsystem.com.sudha.pages.ContactPage.waitAndValidateTableData(ContactPage.java:91)
+	at contactmanagementsystem.com.sudha.tests.DeleteContactTest.deleteContactAndRefreshTest(DeleteContactTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify contact no longer appears after deletion)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAlertText">
+                  </a> <!-- validateAlertText -->
+                  <span class="method-name">validateAlertText</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at contactmanagementsystem.com.sudha.pages.ContactPage.waitAndValidateTableData(ContactPage.java:91)
+	at contactmanagementsystem.com.sudha.tests.DeleteContactTest.validateAlertText(DeleteContactTest.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify delete confirmation (if applicable))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ContactManagementSuite-class-failed -->
+          <div class="suite-ContactManagementSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">contactmanagementsystem.com.sudha.tests.EditContactTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validEditContactTest">
+                  </a> <!-- validEditContactTest -->
+                  <span class="method-name">validEditContactTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: First Name mismatch expected [Suresh] but found [SudhaSuresh]
+	at contactmanagementsystem.com.sudha.pages.ContactPage.verifyContactDetails(ContactPage.java:113)
+	at contactmanagementsystem.com.sudha.tests.EditContactTests.validEditContactTest(EditContactTests.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify user can edit an existing contact)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ContactManagementSuite-class-failed -->
+          <div class="suite-ContactManagementSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">contactmanagementsystem.com.sudha.tests.APITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUserAPI">
+                  </a> <!-- testDeleteUserAPI -->
+                  <span class="method-name">testDeleteUserAPI</span>
+                  <div class="stack-trace">java.lang.Throwable: Method APITest.testDeleteUserAPI()[pri:0, instance:contactmanagementsystem.com.sudha.tests.APITest@651aed93] depends on not successfully finished methods in group &quot;ui&quot;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 8 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Delete User API Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ContactManagementSuite-class-skipped -->
+          <div class="suite-ContactManagementSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">contactmanagementsystem.com.sudha.tests.EditContactTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validCancelEditTest">
+                  </a> <!-- validCancelEditTest -->
+                  <span class="method-name">validCancelEditTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method contactmanagementsystem.com.sudha.tests.EditContactTests.validCancelEditTest() on instance contactmanagementsystem.com.sudha.tests.EditContactTests@895e367 depends on not successfully finished methods 
+[contactmanagementsystem.com.sudha.tests.AddContactTests.validAddContactTest() on instance contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068
+contactmanagementsystem.com.sudha.tests.LoginTest.validLoginTest() on instance contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9
+contactmanagementsystem.com.sudha.tests.EditContactTests.validEditContactTest() on instance contactmanagementsystem.com.sudha.tests.EditContactTests@895e367]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 8 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify canceling an edit (if implemented))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="valididationCheckEditTest">
+                  </a> <!-- valididationCheckEditTest -->
+                  <span class="method-name">valididationCheckEditTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method contactmanagementsystem.com.sudha.tests.EditContactTests.valididationCheckEditTest() on instance contactmanagementsystem.com.sudha.tests.EditContactTests@895e367 depends on not successfully finished methods 
+[contactmanagementsystem.com.sudha.tests.AddContactTests.validAddContactTest() on instance contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068
+contactmanagementsystem.com.sudha.tests.LoginTest.validLoginTest() on instance contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9
+contactmanagementsystem.com.sudha.tests.EditContactTests.validEditContactTest() on instance contactmanagementsystem.com.sudha.tests.EditContactTests@895e367]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 8 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Validation Check Edit Contact)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ContactManagementSuite-class-skipped -->
+          <div class="suite-ContactManagementSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">contactmanagementsystem.com.sudha.tests.ValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFirstNameMaxCharacterLimit">
+                  </a> <!-- verifyFirstNameMaxCharacterLimit -->
+                  <span class="method-name">verifyFirstNameMaxCharacterLimit</span>
+                  <em>
+(Verify max character limit for contact fields)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ContactManagementSuite-class-passed -->
+          <div class="suite-ContactManagementSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">contactmanagementsystem.com.sudha.tests.SignUpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="blankSignUp">
+                  </a> <!-- blankSignUp -->
+                  <span class="method-name">blankSignUp</span>
+                  <em>
+(Verify registration with blank fields)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="inValidSignUp">
+                  </a> <!-- inValidSignUp -->
+                  <span class="method-name">inValidSignUp</span>
+                  <em>
+(Verify registration with already registered email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidSignUpPasswordDoNotMatch">
+                  </a> <!-- invalidSignUpPasswordDoNotMatch -->
+                  <span class="method-name">invalidSignUpPasswordDoNotMatch</span>
+                  <em>
+(Verify password and confirm password mismatch)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidSignUpWrongEmailId">
+                  </a> <!-- invalidSignUpWrongEmailId -->
+                  <span class="method-name">invalidSignUpWrongEmailId</span>
+                  <em>
+(Verify email format validation during sign-up)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validSignUp">
+                  </a> <!-- validSignUp -->
+                  <span class="method-name">validSignUp</span>
+                  <em>
+(Verify sign-up with valid inputs)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ContactManagementSuite-class-passed -->
+          <div class="suite-ContactManagementSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">contactmanagementsystem.com.sudha.tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyLoginTest">
+                  </a> <!-- emptyLoginTest -->
+                  <span class="method-name">emptyLoginTest</span>
+                  <em>
+(Verify login with empty fields)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidEmailLoginTest">
+                  </a> <!-- invalidEmailLoginTest -->
+                  <span class="method-name">invalidEmailLoginTest</span>
+                  <em>
+(Verify login with invalid email format)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginTest">
+                  </a> <!-- invalidLoginTest -->
+                  <span class="method-name">invalidLoginTest</span>
+                  <em>
+(Verify login with incorrect passwor)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openSignupPage">
+                  </a> <!-- openSignupPage -->
+                  <span class="method-name">openSignupPage</span>
+                  <em>
+(Open SignUp Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLoginTest">
+                  </a> <!-- validLoginTest -->
+                  <span class="method-name">validLoginTest</span>
+                  <em>
+(Verify login with valid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateHeaderText">
+                  </a> <!-- validateHeaderText -->
+                  <span class="method-name">validateHeaderText</span>
+                  <em>
+(Validate Header Text)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ContactManagementSuite-class-passed -->
+          <div class="suite-ContactManagementSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">contactmanagementsystem.com.sudha.tests.SessionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginStateOnRefresh">
+                  </a> <!-- verifyLoginStateOnRefresh -->
+                  <span class="method-name">verifyLoginStateOnRefresh</span>
+                  <em>
+(Verify Login State on Refresh)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogoutRedirectToLogin">
+                  </a> <!-- verifyLogoutRedirectToLogin -->
+                  <span class="method-name">verifyLogoutRedirectToLogin</span>
+                  <em>
+(Verify logout redirects to login page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ContactManagementSuite-class-passed -->
+          <div class="suite-ContactManagementSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">contactmanagementsystem.com.sudha.tests.AddContactTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="duplicateContactDetails">
+                  </a> <!-- duplicateContactDetails -->
+                  <span class="method-name">duplicateContactDetails</span>
+                  <em>
+(Verify adding duplicate contact details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidAddContactTest">
+                  </a> <!-- invalidAddContactTest -->
+                  <span class="method-name">invalidAddContactTest</span>
+                  <em>
+(Verify adding contact with missing required fields)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidPhoneNumberTest">
+                  </a> <!-- invalidPhoneNumberTest -->
+                  <span class="method-name">invalidPhoneNumberTest</span>
+                  <em>
+(Verify phone field accepts only numeric input)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validAddContactTest">
+                  </a> <!-- validAddContactTest -->
+                  <span class="method-name">validAddContactTest</span>
+                  <em>
+(Verify adding contact with all valid details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateContactFormResetTest">
+                  </a> <!-- validateContactFormResetTest -->
+                  <span class="method-name">validateContactFormResetTest</span>
+                  <em>
+(Verify form resets after contact is added)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ContactManagementSuite-class-passed -->
+        </div> <!-- panel ContactManagementSuite -->
+        <div panel-name="test-xml-ContactManagementSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sures\eclipse-workspace\SudhaLearning\ContactManagementSystem\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;ContactManagementSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;contactmanagementsystem.com.sudha.util.ExtentListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Chrome Tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;contactmanagementsystem.com.sudha.tests.SignUpTest&quot;/&gt;
+      &lt;class name=&quot;contactmanagementsystem.com.sudha.tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;contactmanagementsystem.com.sudha.tests.AddContactTests&quot;/&gt;
+      &lt;class name=&quot;contactmanagementsystem.com.sudha.tests.EditContactTests&quot;/&gt;
+      &lt;class name=&quot;contactmanagementsystem.com.sudha.tests.DeleteContactTest&quot;/&gt;
+      &lt;class name=&quot;contactmanagementsystem.com.sudha.tests.SessionTest&quot;/&gt;
+      &lt;class name=&quot;contactmanagementsystem.com.sudha.tests.ValidationTest&quot;/&gt;
+      &lt;class name=&quot;contactmanagementsystem.com.sudha.tests.APITest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Firefox Tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;contactmanagementsystem.com.sudha.tests.SignUpTest&quot;/&gt;
+      &lt;class name=&quot;contactmanagementsystem.com.sudha.tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;contactmanagementsystem.com.sudha.tests.AddContactTests&quot;/&gt;
+      &lt;class name=&quot;contactmanagementsystem.com.sudha.tests.EditContactTests&quot;/&gt;
+      &lt;class name=&quot;contactmanagementsystem.com.sudha.tests.DeleteContactTest&quot;/&gt;
+      &lt;class name=&quot;contactmanagementsystem.com.sudha.tests.SessionTest&quot;/&gt;
+      &lt;class name=&quot;contactmanagementsystem.com.sudha.tests.ValidationTest&quot;/&gt;
+      &lt;class name=&quot;contactmanagementsystem.com.sudha.tests.APITest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Firefox Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Edge Tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;contactmanagementsystem.com.sudha.tests.SignUpTest&quot;/&gt;
+      &lt;class name=&quot;contactmanagementsystem.com.sudha.tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;contactmanagementsystem.com.sudha.tests.AddContactTests&quot;/&gt;
+      &lt;class name=&quot;contactmanagementsystem.com.sudha.tests.EditContactTests&quot;/&gt;
+      &lt;class name=&quot;contactmanagementsystem.com.sudha.tests.DeleteContactTest&quot;/&gt;
+      &lt;class name=&quot;contactmanagementsystem.com.sudha.tests.SessionTest&quot;/&gt;
+      &lt;class name=&quot;contactmanagementsystem.com.sudha.tests.ValidationTest&quot;/&gt;
+      &lt;class name=&quot;contactmanagementsystem.com.sudha.tests.APITest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Edge Tests --&gt;
+&lt;/suite&gt; &lt;!-- ContactManagementSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ContactManagementSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ContactManagementSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome Tests (8 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Firefox Tests (8 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Edge Tests (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ContactManagementSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ContactManagementSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">api</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testDeleteUserAPI</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">ui</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">blankSignUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">deleteContactAndRefreshTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">duplicateContactDetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">emptyLoginTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">inValidSignUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">invalidAddContactTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">invalidEmailLoginTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">invalidLoginTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">invalidPhoneNumberTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">invalidSignUpPasswordDoNotMatch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">invalidSignUpWrongEmailId</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validAddContactTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validCancelEditTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validEditContactTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validLoginTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validSignUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateAlertText</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateContactFormResetTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateHeaderText</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">valididationCheckEditTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLoginStateOnRefresh</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogoutRedirectToLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyPasswordFieldMasksInput</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ContactManagementSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ContactManagementSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ContactManagementSuite');
+function tableData_ContactManagementSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(27);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'duplicateContactDetails')
+data.setCell(0, 2, 'contactmanagementsystem.com.sudha.tests.AddContactTests')
+data.setCell(0, 3, 5530);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyPasswordFieldMasksInput')
+data.setCell(1, 2, 'contactmanagementsystem.com.sudha.tests.LoginTest')
+data.setCell(1, 3, 4531);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validEditContactTest')
+data.setCell(2, 2, 'contactmanagementsystem.com.sudha.tests.EditContactTests')
+data.setCell(2, 3, 3315);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyUnicodeAndEmojiInAddress')
+data.setCell(3, 2, 'contactmanagementsystem.com.sudha.tests.ValidationTest')
+data.setCell(3, 3, 3126);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validAddContactTest')
+data.setCell(4, 2, 'contactmanagementsystem.com.sudha.tests.AddContactTests')
+data.setCell(4, 3, 3056);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyLogoutRedirectToLogin')
+data.setCell(5, 2, 'contactmanagementsystem.com.sudha.tests.SessionTest')
+data.setCell(5, 3, 2249);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyLoginStateOnRefresh')
+data.setCell(6, 2, 'contactmanagementsystem.com.sudha.tests.SessionTest')
+data.setCell(6, 3, 2179);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyFirstNameMaxCharacterLimit')
+data.setCell(7, 2, 'contactmanagementsystem.com.sudha.tests.ValidationTest')
+data.setCell(7, 3, 2124);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'invalidPhoneNumberTest')
+data.setCell(8, 2, 'contactmanagementsystem.com.sudha.tests.AddContactTests')
+data.setCell(8, 3, 2067);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validSignUp')
+data.setCell(9, 2, 'contactmanagementsystem.com.sudha.tests.SignUpTest')
+data.setCell(9, 3, 2003);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'invalidSignUpPasswordDoNotMatch')
+data.setCell(10, 2, 'contactmanagementsystem.com.sudha.tests.SignUpTest')
+data.setCell(10, 3, 2002);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'invalidAddContactTest')
+data.setCell(11, 2, 'contactmanagementsystem.com.sudha.tests.AddContactTests')
+data.setCell(11, 3, 1940);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validateContactFormResetTest')
+data.setCell(12, 2, 'contactmanagementsystem.com.sudha.tests.AddContactTests')
+data.setCell(12, 3, 1872);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validateAlertText')
+data.setCell(13, 2, 'contactmanagementsystem.com.sudha.tests.DeleteContactTest')
+data.setCell(13, 3, 1490);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'deleteContactAndRefreshTest')
+data.setCell(14, 2, 'contactmanagementsystem.com.sudha.tests.DeleteContactTest')
+data.setCell(14, 3, 1413);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validLoginTest')
+data.setCell(15, 2, 'contactmanagementsystem.com.sudha.tests.LoginTest')
+data.setCell(15, 3, 1325);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'openSignupPage')
+data.setCell(16, 2, 'contactmanagementsystem.com.sudha.tests.LoginTest')
+data.setCell(16, 3, 1306);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'inValidSignUp')
+data.setCell(17, 2, 'contactmanagementsystem.com.sudha.tests.SignUpTest')
+data.setCell(17, 3, 1205);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'invalidSignUpWrongEmailId')
+data.setCell(18, 2, 'contactmanagementsystem.com.sudha.tests.SignUpTest')
+data.setCell(18, 3, 1189);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'blankSignUp')
+data.setCell(19, 2, 'contactmanagementsystem.com.sudha.tests.SignUpTest')
+data.setCell(19, 3, 1144);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'emptyLoginTest')
+data.setCell(20, 2, 'contactmanagementsystem.com.sudha.tests.LoginTest')
+data.setCell(20, 3, 1123);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'invalidLoginTest')
+data.setCell(21, 2, 'contactmanagementsystem.com.sudha.tests.LoginTest')
+data.setCell(21, 3, 1100);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'invalidEmailLoginTest')
+data.setCell(22, 2, 'contactmanagementsystem.com.sudha.tests.LoginTest')
+data.setCell(22, 3, 1099);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'validateHeaderText')
+data.setCell(23, 2, 'contactmanagementsystem.com.sudha.tests.LoginTest')
+data.setCell(23, 3, 785);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'valididationCheckEditTest')
+data.setCell(24, 2, 'contactmanagementsystem.com.sudha.tests.EditContactTests')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testDeleteUserAPI')
+data.setCell(25, 2, 'contactmanagementsystem.com.sudha.tests.APITest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'validCancelEditTest')
+data.setCell(26, 2, 'contactmanagementsystem.com.sudha.tests.EditContactTests')
+data.setCell(26, 3, 0);
+window.suiteTableData['ContactManagementSuite']= { tableData: data, tableDiv: 'times-div-ContactManagementSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-ContactManagementSuite">
+              </div> <!-- times-div-ContactManagementSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ContactManagementSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ContactManagementSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ContactManagementSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">21 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">contactmanagementsystem.com.sudha.tests.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">cleanReports</span>
+                <br/>
+                <span class="ignored-method-name">cleanReports</span>
+                <br/>
+                <span class="ignored-method-name">cleanReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">contactmanagementsystem.com.sudha.tests.ValidationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">cleanReports</span>
+                <br/>
+                <span class="ignored-method-name">cleanReports</span>
+                <br/>
+                <span class="ignored-method-name">cleanReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">contactmanagementsystem.com.sudha.tests.APITest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">cleanReports</span>
+                <br/>
+                <span class="ignored-method-name">cleanReports</span>
+                <br/>
+                <span class="ignored-method-name">cleanReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">contactmanagementsystem.com.sudha.tests.DeleteContactTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">cleanReports</span>
+                <br/>
+                <span class="ignored-method-name">cleanReports</span>
+                <br/>
+                <span class="ignored-method-name">cleanReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">contactmanagementsystem.com.sudha.tests.EditContactTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">cleanReports</span>
+                <br/>
+                <span class="ignored-method-name">cleanReports</span>
+                <br/>
+                <span class="ignored-method-name">cleanReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">contactmanagementsystem.com.sudha.tests.SessionTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">cleanReports</span>
+                <br/>
+                <span class="ignored-method-name">cleanReports</span>
+                <br/>
+                <span class="ignored-method-name">cleanReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">contactmanagementsystem.com.sudha.tests.AddContactTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">cleanReports</span>
+                <br/>
+                <span class="ignored-method-name">cleanReports</span>
+                <br/>
+                <span class="ignored-method-name">cleanReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ContactManagementSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">contactmanagementsystem.com.sudha.tests.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">cleanReports</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeEachBrowser</span>
+                <span class="method-start">290 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeEachBrowser</span>
+                <span class="method-start">290 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=SignUpTest.validSignUp()[pri:1, instance:contactmanage...)</span>
+                <span class="method-start">304 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=SignUpTest.validSignUp()[pri:1, instance:contactmanage...)</span>
+                <span class="method-start">304 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validSignUp</span>
+                <span class="method-start">1993 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validSignUp</span>
+                <span class="method-start">4024 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4818 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">contactmanagementsystem.com.sudha.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=LoginTest.emptyLoginTest()[pri:0, instance:contactmana...)</span>
+                <span class="method-start">5009 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emptyLoginTest</span>
+                <span class="method-start">5789 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">contactmanagementsystem.com.sudha.tests.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6628 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">contactmanagementsystem.com.sudha.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7477 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=LoginTest.invalidEmailLoginTest()[pri:0, instance:cont...)</span>
+                <span class="method-start">7617 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=LoginTest.emptyLoginTest()[pri:0, instance:contactmana...)</span>
+                <span class="method-start">7952 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidEmailLoginTest</span>
+                <span class="method-start">8452 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10149 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">invalidLoginTest</span>
+                <span class="method-start">10285 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=LoginTest.invalidLoginTest()[pri:0, instance:contactma...)</span>
+                <span class="method-start">10285 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emptyLoginTest</span>
+                <span class="method-start">11265 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12428 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=LoginTest.invalidEmailLoginTest()[pri:0, instance:cont...)</span>
+                <span class="method-start">13141 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=LoginTest.openSignupPage()[pri:0, instance:contactmana...)</span>
+                <span class="method-start">13144 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">openSignupPage</span>
+                <span class="method-start">14175 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15428 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=LoginTest.validLoginTest()[pri:0, instance:contactmana...)</span>
+                <span class="method-start">15641 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validLoginTest</span>
+                <span class="method-start">16558 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidEmailLoginTest</span>
+                <span class="method-start">17131 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18241 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18320 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">contactmanagementsystem.com.sudha.tests.AddContactTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=AddContactTests.duplicateContactDetails()[pri:0, insta...)</span>
+                <span class="method-start">18386 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">duplicateContactDetails</span>
+                <span class="method-start">19495 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">contactmanagementsystem.com.sudha.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=LoginTest.invalidLoginTest()[pri:0, instance:contactma...)</span>
+                <span class="method-start">19522 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginTest</span>
+                <span class="method-start">22551 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23692 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=LoginTest.openSignupPage()[pri:0, instance:contactmana...)</span>
+                <span class="method-start">24594 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">contactmanagementsystem.com.sudha.tests.AddContactTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27274 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=AddContactTests.invalidAddContactTest()[pri:0, instanc...)</span>
+                <span class="method-start">27540 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">contactmanagementsystem.com.sudha.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">openSignupPage</span>
+                <span class="method-start">29270 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">30634 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=LoginTest.validLoginTest()[pri:0, instance:contactmana...)</span>
+                <span class="method-start">31932 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validLoginTest</span>
+                <span class="method-start">34565 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35934 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">contactmanagementsystem.com.sudha.tests.AddContactTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=AddContactTests.duplicateContactDetails()[pri:0, insta...)</span>
+                <span class="method-start">36715 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">duplicateContactDetails</span>
+                <span class="method-start">39414 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">45011 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=AddContactTests.invalidAddContactTest()[pri:0, instanc...)</span>
+                <span class="method-start">45931 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidAddContactTest</span>
+                <span class="method-start">48330 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50309 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=AddContactTests.invalidPhoneNumberTest()[pri:0, instan...)</span>
+                <span class="method-start">51098 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidPhoneNumberTest</span>
+                <span class="method-start">53349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">55459 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=AddContactTests.validAddContactTest()[pri:0, instance:...)</span>
+                <span class="method-start">56445 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validAddContactTest</span>
+                <span class="method-start">58681 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">61782 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">contactmanagementsystem.com.sudha.tests.EditContactTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=EditContactTests.validEditContactTest()[pri:0, instanc...)</span>
+                <span class="method-start">62543 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validEditContactTest</span>
+                <span class="method-start">64797 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68151 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">contactmanagementsystem.com.sudha.tests.AddContactTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=AddContactTests.validateContactFormResetTest()[pri:0, ...)</span>
+                <span class="method-start">68924 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateContactFormResetTest</span>
+                <span class="method-start">71134 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">73043 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">contactmanagementsystem.com.sudha.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=LoginTest.validateHeaderText()[pri:0, instance:contact...)</span>
+                <span class="method-start">73810 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateHeaderText</span>
+                <span class="method-start">76518 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">77344 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">contactmanagementsystem.com.sudha.tests.SessionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=SessionTest.verifyLoginStateOnRefresh()[pri:0, instanc...)</span>
+                <span class="method-start">78175 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginStateOnRefresh</span>
+                <span class="method-start">81120 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">83338 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=SessionTest.verifyLogoutRedirectToLogin()[pri:0, insta...)</span>
+                <span class="method-start">84118 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogoutRedirectToLogin</span>
+                <span class="method-start">87057 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">89344 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">contactmanagementsystem.com.sudha.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=LoginTest.verifyPasswordFieldMasksInput()[pri:0, insta...)</span>
+                <span class="method-start">90125 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyPasswordFieldMasksInput</span>
+                <span class="method-start">92854 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">97422 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">contactmanagementsystem.com.sudha.tests.DeleteContactTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=DeleteContactTest.validateAlertText()[pri:1, instance:...)</span>
+                <span class="method-start">98197 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateAlertText</span>
+                <span class="method-start">101443 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">102978 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=DeleteContactTest.deleteContactAndRefreshTest()[pri:2,...)</span>
+                <span class="method-start">103879 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteContactAndRefreshTest</span>
+                <span class="method-start">106253 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">107710 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">contactmanagementsystem.com.sudha.tests.ValidationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=ValidationTest.verifyFirstNameMaxCharacterLimit()[pri:...)</span>
+                <span class="method-start">108477 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFirstNameMaxCharacterLimit</span>
+                <span class="method-start">111782 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">113950 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=ValidationTest.verifyUnicodeAndEmojiInAddress()[pri:0,...)</span>
+                <span class="method-start">114728 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyUnicodeAndEmojiInAddress</span>
+                <span class="method-start">117777 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">120948 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">contactmanagementsystem.com.sudha.tests.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=SignUpTest.inValidSignUp()[pri:2, instance:contactmana...)</span>
+                <span class="method-start">121916 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">inValidSignUp</span>
+                <span class="method-start">125227 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">126470 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=SignUpTest.blankSignUp()[pri:3, instance:contactmanage...)</span>
+                <span class="method-start">127231 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">blankSignUp</span>
+                <span class="method-start">130717 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">131932 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=SignUpTest.invalidSignUpPasswordDoNotMatch()[pri:4, in...)</span>
+                <span class="method-start">132948 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidSignUpPasswordDoNotMatch</span>
+                <span class="method-start">135953 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">137998 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=SignUpTest.invalidSignUpWrongEmailId()[pri:5, instance...)</span>
+                <span class="method-start">138778 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidSignUpWrongEmailId</span>
+                <span class="method-start">141960 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">143183 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="27" passed="19" failed="5" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-01T02:03:42 BST" name="ContactManagementSuite" finished-at="2025-07-01T02:06:06 BST" duration-ms="143891">
+    <groups>
+      <group name="ui">
+        <method signature="SignUpTest.validSignUp()[pri:1, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@7b50df34]" name="validSignUp" class="contactmanagementsystem.com.sudha.tests.SignUpTest"/>
+        <method signature="LoginTest.emptyLoginTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@6b0d80ed]" name="emptyLoginTest" class="contactmanagementsystem.com.sudha.tests.LoginTest"/>
+        <method signature="LoginTest.invalidEmailLoginTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@6b0d80ed]" name="invalidEmailLoginTest" class="contactmanagementsystem.com.sudha.tests.LoginTest"/>
+        <method signature="LoginTest.invalidLoginTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@6b0d80ed]" name="invalidLoginTest" class="contactmanagementsystem.com.sudha.tests.LoginTest"/>
+        <method signature="LoginTest.validLoginTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@6b0d80ed]" name="validLoginTest" class="contactmanagementsystem.com.sudha.tests.LoginTest"/>
+        <method signature="AddContactTests.duplicateContactDetails()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@6f8e8894]" name="duplicateContactDetails" class="contactmanagementsystem.com.sudha.tests.AddContactTests"/>
+        <method signature="AddContactTests.invalidAddContactTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@6f8e8894]" name="invalidAddContactTest" class="contactmanagementsystem.com.sudha.tests.AddContactTests"/>
+        <method signature="AddContactTests.invalidPhoneNumberTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@6f8e8894]" name="invalidPhoneNumberTest" class="contactmanagementsystem.com.sudha.tests.AddContactTests"/>
+        <method signature="AddContactTests.validAddContactTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@6f8e8894]" name="validAddContactTest" class="contactmanagementsystem.com.sudha.tests.AddContactTests"/>
+        <method signature="AddContactTests.validateContactFormResetTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@6f8e8894]" name="validateContactFormResetTest" class="contactmanagementsystem.com.sudha.tests.AddContactTests"/>
+        <method signature="EditContactTests.validEditContactTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.EditContactTests@e25951c]" name="validEditContactTest" class="contactmanagementsystem.com.sudha.tests.EditContactTests"/>
+        <method signature="EditContactTests.validCancelEditTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.EditContactTests@e25951c]" name="validCancelEditTest" class="contactmanagementsystem.com.sudha.tests.EditContactTests"/>
+        <method signature="EditContactTests.valididationCheckEditTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.EditContactTests@e25951c]" name="valididationCheckEditTest" class="contactmanagementsystem.com.sudha.tests.EditContactTests"/>
+        <method signature="LoginTest.validateHeaderText()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@6b0d80ed]" name="validateHeaderText" class="contactmanagementsystem.com.sudha.tests.LoginTest"/>
+        <method signature="LoginTest.verifyPasswordFieldMasksInput()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@6b0d80ed]" name="verifyPasswordFieldMasksInput" class="contactmanagementsystem.com.sudha.tests.LoginTest"/>
+        <method signature="SessionTest.verifyLoginStateOnRefresh()[pri:0, instance:contactmanagementsystem.com.sudha.tests.SessionTest@471a9022]" name="verifyLoginStateOnRefresh" class="contactmanagementsystem.com.sudha.tests.SessionTest"/>
+        <method signature="SessionTest.verifyLogoutRedirectToLogin()[pri:0, instance:contactmanagementsystem.com.sudha.tests.SessionTest@471a9022]" name="verifyLogoutRedirectToLogin" class="contactmanagementsystem.com.sudha.tests.SessionTest"/>
+        <method signature="DeleteContactTest.validateAlertText()[pri:1, instance:contactmanagementsystem.com.sudha.tests.DeleteContactTest@15f47664]" name="validateAlertText" class="contactmanagementsystem.com.sudha.tests.DeleteContactTest"/>
+        <method signature="DeleteContactTest.deleteContactAndRefreshTest()[pri:2, instance:contactmanagementsystem.com.sudha.tests.DeleteContactTest@15f47664]" name="deleteContactAndRefreshTest" class="contactmanagementsystem.com.sudha.tests.DeleteContactTest"/>
+        <method signature="SignUpTest.inValidSignUp()[pri:2, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@7b50df34]" name="inValidSignUp" class="contactmanagementsystem.com.sudha.tests.SignUpTest"/>
+        <method signature="SignUpTest.blankSignUp()[pri:3, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@7b50df34]" name="blankSignUp" class="contactmanagementsystem.com.sudha.tests.SignUpTest"/>
+        <method signature="SignUpTest.invalidSignUpPasswordDoNotMatch()[pri:4, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@7b50df34]" name="invalidSignUpPasswordDoNotMatch" class="contactmanagementsystem.com.sudha.tests.SignUpTest"/>
+        <method signature="SignUpTest.invalidSignUpWrongEmailId()[pri:5, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@7b50df34]" name="invalidSignUpWrongEmailId" class="contactmanagementsystem.com.sudha.tests.SignUpTest"/>
+        <method signature="SignUpTest.validSignUp()[pri:1, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d]" name="validSignUp" class="contactmanagementsystem.com.sudha.tests.SignUpTest"/>
+        <method signature="LoginTest.emptyLoginTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" name="emptyLoginTest" class="contactmanagementsystem.com.sudha.tests.LoginTest"/>
+        <method signature="LoginTest.invalidEmailLoginTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" name="invalidEmailLoginTest" class="contactmanagementsystem.com.sudha.tests.LoginTest"/>
+        <method signature="LoginTest.invalidLoginTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" name="invalidLoginTest" class="contactmanagementsystem.com.sudha.tests.LoginTest"/>
+        <method signature="LoginTest.validLoginTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" name="validLoginTest" class="contactmanagementsystem.com.sudha.tests.LoginTest"/>
+        <method signature="AddContactTests.duplicateContactDetails()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068]" name="duplicateContactDetails" class="contactmanagementsystem.com.sudha.tests.AddContactTests"/>
+        <method signature="AddContactTests.invalidAddContactTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068]" name="invalidAddContactTest" class="contactmanagementsystem.com.sudha.tests.AddContactTests"/>
+        <method signature="AddContactTests.invalidPhoneNumberTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068]" name="invalidPhoneNumberTest" class="contactmanagementsystem.com.sudha.tests.AddContactTests"/>
+        <method signature="AddContactTests.validAddContactTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068]" name="validAddContactTest" class="contactmanagementsystem.com.sudha.tests.AddContactTests"/>
+        <method signature="AddContactTests.validateContactFormResetTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068]" name="validateContactFormResetTest" class="contactmanagementsystem.com.sudha.tests.AddContactTests"/>
+        <method signature="EditContactTests.validEditContactTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.EditContactTests@895e367]" name="validEditContactTest" class="contactmanagementsystem.com.sudha.tests.EditContactTests"/>
+        <method signature="EditContactTests.validCancelEditTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.EditContactTests@895e367]" name="validCancelEditTest" class="contactmanagementsystem.com.sudha.tests.EditContactTests"/>
+        <method signature="EditContactTests.valididationCheckEditTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.EditContactTests@895e367]" name="valididationCheckEditTest" class="contactmanagementsystem.com.sudha.tests.EditContactTests"/>
+        <method signature="LoginTest.validateHeaderText()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" name="validateHeaderText" class="contactmanagementsystem.com.sudha.tests.LoginTest"/>
+        <method signature="LoginTest.verifyPasswordFieldMasksInput()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" name="verifyPasswordFieldMasksInput" class="contactmanagementsystem.com.sudha.tests.LoginTest"/>
+        <method signature="SessionTest.verifyLoginStateOnRefresh()[pri:0, instance:contactmanagementsystem.com.sudha.tests.SessionTest@7a3793c7]" name="verifyLoginStateOnRefresh" class="contactmanagementsystem.com.sudha.tests.SessionTest"/>
+        <method signature="SessionTest.verifyLogoutRedirectToLogin()[pri:0, instance:contactmanagementsystem.com.sudha.tests.SessionTest@7a3793c7]" name="verifyLogoutRedirectToLogin" class="contactmanagementsystem.com.sudha.tests.SessionTest"/>
+        <method signature="DeleteContactTest.validateAlertText()[pri:1, instance:contactmanagementsystem.com.sudha.tests.DeleteContactTest@1b266842]" name="validateAlertText" class="contactmanagementsystem.com.sudha.tests.DeleteContactTest"/>
+        <method signature="DeleteContactTest.deleteContactAndRefreshTest()[pri:2, instance:contactmanagementsystem.com.sudha.tests.DeleteContactTest@1b266842]" name="deleteContactAndRefreshTest" class="contactmanagementsystem.com.sudha.tests.DeleteContactTest"/>
+        <method signature="SignUpTest.inValidSignUp()[pri:2, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d]" name="inValidSignUp" class="contactmanagementsystem.com.sudha.tests.SignUpTest"/>
+        <method signature="SignUpTest.blankSignUp()[pri:3, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d]" name="blankSignUp" class="contactmanagementsystem.com.sudha.tests.SignUpTest"/>
+        <method signature="SignUpTest.invalidSignUpPasswordDoNotMatch()[pri:4, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d]" name="invalidSignUpPasswordDoNotMatch" class="contactmanagementsystem.com.sudha.tests.SignUpTest"/>
+        <method signature="SignUpTest.invalidSignUpWrongEmailId()[pri:5, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d]" name="invalidSignUpWrongEmailId" class="contactmanagementsystem.com.sudha.tests.SignUpTest"/>
+        <method signature="SignUpTest.validSignUp()[pri:1, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@bb9e6dc]" name="validSignUp" class="contactmanagementsystem.com.sudha.tests.SignUpTest"/>
+        <method signature="LoginTest.emptyLoginTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5456afaa]" name="emptyLoginTest" class="contactmanagementsystem.com.sudha.tests.LoginTest"/>
+        <method signature="LoginTest.invalidEmailLoginTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5456afaa]" name="invalidEmailLoginTest" class="contactmanagementsystem.com.sudha.tests.LoginTest"/>
+        <method signature="LoginTest.invalidLoginTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5456afaa]" name="invalidLoginTest" class="contactmanagementsystem.com.sudha.tests.LoginTest"/>
+        <method signature="LoginTest.validLoginTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5456afaa]" name="validLoginTest" class="contactmanagementsystem.com.sudha.tests.LoginTest"/>
+        <method signature="AddContactTests.duplicateContactDetails()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@6692b6c6]" name="duplicateContactDetails" class="contactmanagementsystem.com.sudha.tests.AddContactTests"/>
+        <method signature="AddContactTests.invalidAddContactTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@6692b6c6]" name="invalidAddContactTest" class="contactmanagementsystem.com.sudha.tests.AddContactTests"/>
+        <method signature="AddContactTests.invalidPhoneNumberTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@6692b6c6]" name="invalidPhoneNumberTest" class="contactmanagementsystem.com.sudha.tests.AddContactTests"/>
+        <method signature="AddContactTests.validAddContactTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@6692b6c6]" name="validAddContactTest" class="contactmanagementsystem.com.sudha.tests.AddContactTests"/>
+        <method signature="AddContactTests.validateContactFormResetTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@6692b6c6]" name="validateContactFormResetTest" class="contactmanagementsystem.com.sudha.tests.AddContactTests"/>
+        <method signature="EditContactTests.validEditContactTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.EditContactTests@1cd629b3]" name="validEditContactTest" class="contactmanagementsystem.com.sudha.tests.EditContactTests"/>
+        <method signature="EditContactTests.validCancelEditTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.EditContactTests@1cd629b3]" name="validCancelEditTest" class="contactmanagementsystem.com.sudha.tests.EditContactTests"/>
+        <method signature="EditContactTests.valididationCheckEditTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.EditContactTests@1cd629b3]" name="valididationCheckEditTest" class="contactmanagementsystem.com.sudha.tests.EditContactTests"/>
+        <method signature="LoginTest.validateHeaderText()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5456afaa]" name="validateHeaderText" class="contactmanagementsystem.com.sudha.tests.LoginTest"/>
+        <method signature="LoginTest.verifyPasswordFieldMasksInput()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5456afaa]" name="verifyPasswordFieldMasksInput" class="contactmanagementsystem.com.sudha.tests.LoginTest"/>
+        <method signature="SessionTest.verifyLoginStateOnRefresh()[pri:0, instance:contactmanagementsystem.com.sudha.tests.SessionTest@39d76cb5]" name="verifyLoginStateOnRefresh" class="contactmanagementsystem.com.sudha.tests.SessionTest"/>
+        <method signature="SessionTest.verifyLogoutRedirectToLogin()[pri:0, instance:contactmanagementsystem.com.sudha.tests.SessionTest@39d76cb5]" name="verifyLogoutRedirectToLogin" class="contactmanagementsystem.com.sudha.tests.SessionTest"/>
+        <method signature="DeleteContactTest.validateAlertText()[pri:1, instance:contactmanagementsystem.com.sudha.tests.DeleteContactTest@589da3f3]" name="validateAlertText" class="contactmanagementsystem.com.sudha.tests.DeleteContactTest"/>
+        <method signature="DeleteContactTest.deleteContactAndRefreshTest()[pri:2, instance:contactmanagementsystem.com.sudha.tests.DeleteContactTest@589da3f3]" name="deleteContactAndRefreshTest" class="contactmanagementsystem.com.sudha.tests.DeleteContactTest"/>
+        <method signature="SignUpTest.inValidSignUp()[pri:2, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@bb9e6dc]" name="inValidSignUp" class="contactmanagementsystem.com.sudha.tests.SignUpTest"/>
+        <method signature="SignUpTest.blankSignUp()[pri:3, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@bb9e6dc]" name="blankSignUp" class="contactmanagementsystem.com.sudha.tests.SignUpTest"/>
+        <method signature="SignUpTest.invalidSignUpPasswordDoNotMatch()[pri:4, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@bb9e6dc]" name="invalidSignUpPasswordDoNotMatch" class="contactmanagementsystem.com.sudha.tests.SignUpTest"/>
+        <method signature="SignUpTest.invalidSignUpWrongEmailId()[pri:5, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@bb9e6dc]" name="invalidSignUpWrongEmailId" class="contactmanagementsystem.com.sudha.tests.SignUpTest"/>
+      </group> <!-- ui -->
+      <group name="api">
+        <method signature="APITest.testDeleteUserAPI()[pri:0, instance:contactmanagementsystem.com.sudha.tests.APITest@2f666ebb]" name="testDeleteUserAPI" class="contactmanagementsystem.com.sudha.tests.APITest"/>
+        <method signature="APITest.testDeleteUserAPI()[pri:0, instance:contactmanagementsystem.com.sudha.tests.APITest@651aed93]" name="testDeleteUserAPI" class="contactmanagementsystem.com.sudha.tests.APITest"/>
+        <method signature="APITest.testDeleteUserAPI()[pri:0, instance:contactmanagementsystem.com.sudha.tests.APITest@6736fa8d]" name="testDeleteUserAPI" class="contactmanagementsystem.com.sudha.tests.APITest"/>
+      </group> <!-- api -->
+    </groups>
+    <test started-at="2025-07-01T02:03:42 BST" name="Firefox Tests" finished-at="2025-07-01T02:06:06 BST" duration-ms="143891">
+      <class name="contactmanagementsystem.com.sudha.tests.APITest">
+        <test-method signature="testDeleteUserAPI()[pri:0, instance:contactmanagementsystem.com.sudha.tests.APITest@651aed93]" started-at="2025-07-01T02:06:06 BST" name="testDeleteUserAPI" description="Delete User API Test" depends-on-groups="ui" finished-at="2025-07-01T02:06:06 BST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method APITest.testDeleteUserAPI()[pri:0, instance:contactmanagementsystem.com.sudha.tests.APITest@651aed93] depends on not successfully finished methods in group "ui"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method APITest.testDeleteUserAPI()[pri:0, instance:contactmanagementsystem.com.sudha.tests.APITest@651aed93] depends on not successfully finished methods in group "ui"
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:157)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserAPI -->
+      </class> <!-- contactmanagementsystem.com.sudha.tests.APITest -->
+      <class name="contactmanagementsystem.com.sudha.tests.DeleteContactTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,java.lang.String)[pri:0, instance:contactmanagementsystem.com.sudha.tests.DeleteContactTest@1b266842]" started-at="2025-07-01T02:05:20 BST" name="setUp" finished-at="2025-07-01T02:05:23 BST" duration-ms="3246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DeleteContactTest.validateAlertText()[pri:1, instance:contactmanagementsystem.com.sudha.tests.DeleteContactTest@1b266842] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateAlertText()[pri:1, instance:contactmanagementsystem.com.sudha.tests.DeleteContactTest@1b266842]" started-at="2025-07-01T02:05:23 BST" name="validateAlertText" description="Verify delete confirmation (if applicable)" finished-at="2025-07-01T02:05:25 BST" depends-on-methods="contactmanagementsystem.com.sudha.tests.EditContactTests.validEditContactTest" duration-ms="1490" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at contactmanagementsystem.com.sudha.pages.ContactPage.waitAndValidateTableData(ContactPage.java:91)
+at contactmanagementsystem.com.sudha.tests.DeleteContactTest.validateAlertText(DeleteContactTest.java:33)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAlertText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactmanagementsystem.com.sudha.tests.DeleteContactTest@1b266842]" started-at="2025-07-01T02:05:25 BST" name="tearDown" finished-at="2025-07-01T02:05:26 BST" duration-ms="900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,java.lang.String)[pri:0, instance:contactmanagementsystem.com.sudha.tests.DeleteContactTest@1b266842]" started-at="2025-07-01T02:05:26 BST" name="setUp" finished-at="2025-07-01T02:05:28 BST" duration-ms="2374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DeleteContactTest.deleteContactAndRefreshTest()[pri:2, instance:contactmanagementsystem.com.sudha.tests.DeleteContactTest@1b266842] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deleteContactAndRefreshTest()[pri:2, instance:contactmanagementsystem.com.sudha.tests.DeleteContactTest@1b266842]" started-at="2025-07-01T02:05:28 BST" name="deleteContactAndRefreshTest" description="Verify contact no longer appears after deletion" finished-at="2025-07-01T02:05:29 BST" depends-on-methods="contactmanagementsystem.com.sudha.tests.EditContactTests.validEditContactTest" duration-ms="1413" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at contactmanagementsystem.com.sudha.pages.ContactPage.waitAndValidateTableData(ContactPage.java:91)
+at contactmanagementsystem.com.sudha.tests.DeleteContactTest.deleteContactAndRefreshTest(DeleteContactTest.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteContactAndRefreshTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactmanagementsystem.com.sudha.tests.DeleteContactTest@1b266842]" started-at="2025-07-01T02:05:29 BST" name="tearDown" finished-at="2025-07-01T02:05:30 BST" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- contactmanagementsystem.com.sudha.tests.DeleteContactTest -->
+      <class name="contactmanagementsystem.com.sudha.tests.SessionTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,java.lang.String)[pri:0, instance:contactmanagementsystem.com.sudha.tests.SessionTest@7a3793c7]" started-at="2025-07-01T02:05:00 BST" name="setUp" finished-at="2025-07-01T02:05:03 BST" duration-ms="2945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SessionTest.verifyLoginStateOnRefresh()[pri:0, instance:contactmanagementsystem.com.sudha.tests.SessionTest@7a3793c7] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginStateOnRefresh()[pri:0, instance:contactmanagementsystem.com.sudha.tests.SessionTest@7a3793c7]" started-at="2025-07-01T02:05:03 BST" name="verifyLoginStateOnRefresh" description="Verify Login State on Refresh" finished-at="2025-07-01T02:05:05 BST" depends-on-methods="contactmanagementsystem.com.sudha.tests.LoginTest.validLoginTest" duration-ms="2179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginStateOnRefresh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactmanagementsystem.com.sudha.tests.SessionTest@7a3793c7]" started-at="2025-07-01T02:05:05 BST" name="tearDown" finished-at="2025-07-01T02:05:06 BST" duration-ms="779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,java.lang.String)[pri:0, instance:contactmanagementsystem.com.sudha.tests.SessionTest@7a3793c7]" started-at="2025-07-01T02:05:06 BST" name="setUp" finished-at="2025-07-01T02:05:09 BST" duration-ms="2939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SessionTest.verifyLogoutRedirectToLogin()[pri:0, instance:contactmanagementsystem.com.sudha.tests.SessionTest@7a3793c7] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogoutRedirectToLogin()[pri:0, instance:contactmanagementsystem.com.sudha.tests.SessionTest@7a3793c7]" started-at="2025-07-01T02:05:09 BST" name="verifyLogoutRedirectToLogin" description="Verify logout redirects to login page" finished-at="2025-07-01T02:05:11 BST" depends-on-methods="contactmanagementsystem.com.sudha.tests.LoginTest.validLoginTest" duration-ms="2249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutRedirectToLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactmanagementsystem.com.sudha.tests.SessionTest@7a3793c7]" started-at="2025-07-01T02:05:11 BST" name="tearDown" finished-at="2025-07-01T02:05:12 BST" duration-ms="780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- contactmanagementsystem.com.sudha.tests.SessionTest -->
+      <class name="contactmanagementsystem.com.sudha.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,java.lang.String)[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" started-at="2025-07-01T02:03:50 BST" name="setUp" finished-at="2025-07-01T02:03:53 BST" duration-ms="3313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.emptyLoginTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="emptyLoginTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" started-at="2025-07-01T02:03:53 BST" name="emptyLoginTest" description="Verify login with empty fields" finished-at="2025-07-01T02:03:54 BST" depends-on-methods="contactmanagementsystem.com.sudha.tests.SignUpTest.validSignUp" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" started-at="2025-07-01T02:03:54 BST" name="tearDown" finished-at="2025-07-01T02:03:55 BST" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,java.lang.String)[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" started-at="2025-07-01T02:03:55 BST" name="setUp" finished-at="2025-07-01T02:03:59 BST" duration-ms="3990" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.invalidEmailLoginTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidEmailLoginTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" started-at="2025-07-01T02:03:59 BST" name="invalidEmailLoginTest" description="Verify login with invalid email format" finished-at="2025-07-01T02:04:00 BST" depends-on-methods="contactmanagementsystem.com.sudha.tests.SignUpTest.validSignUp" duration-ms="1099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" started-at="2025-07-01T02:04:00 BST" name="tearDown" finished-at="2025-07-01T02:04:01 BST" duration-ms="1200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,java.lang.String)[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" started-at="2025-07-01T02:04:01 BST" name="setUp" finished-at="2025-07-01T02:04:04 BST" duration-ms="3029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.invalidLoginTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" started-at="2025-07-01T02:04:04 BST" name="invalidLoginTest" description="Verify login with incorrect passwor" finished-at="2025-07-01T02:04:05 BST" depends-on-methods="contactmanagementsystem.com.sudha.tests.SignUpTest.validSignUp" duration-ms="1100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" started-at="2025-07-01T02:04:05 BST" name="tearDown" finished-at="2025-07-01T02:04:06 BST" duration-ms="901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,java.lang.String)[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" started-at="2025-07-01T02:04:06 BST" name="setUp" finished-at="2025-07-01T02:04:11 BST" duration-ms="4676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.openSignupPage()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openSignupPage()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" started-at="2025-07-01T02:04:11 BST" name="openSignupPage" description="Open SignUp Page" finished-at="2025-07-01T02:04:12 BST" depends-on-methods="contactmanagementsystem.com.sudha.tests.SignUpTest.validSignUp" duration-ms="1306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignupPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" started-at="2025-07-01T02:04:12 BST" name="tearDown" finished-at="2025-07-01T02:04:14 BST" duration-ms="1296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,java.lang.String)[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" started-at="2025-07-01T02:04:14 BST" name="setUp" finished-at="2025-07-01T02:04:16 BST" duration-ms="2633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.validLoginTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" started-at="2025-07-01T02:04:16 BST" name="validLoginTest" description="Verify login with valid credentials" finished-at="2025-07-01T02:04:18 BST" depends-on-methods="contactmanagementsystem.com.sudha.tests.SignUpTest.validSignUp" duration-ms="1325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" started-at="2025-07-01T02:04:18 BST" name="tearDown" finished-at="2025-07-01T02:04:18 BST" duration-ms="780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,java.lang.String)[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" started-at="2025-07-01T02:04:56 BST" name="setUp" finished-at="2025-07-01T02:04:58 BST" duration-ms="2708" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.validateHeaderText()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateHeaderText()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" started-at="2025-07-01T02:04:58 BST" name="validateHeaderText" description="Validate Header Text" finished-at="2025-07-01T02:04:59 BST" depends-on-methods="contactmanagementsystem.com.sudha.tests.SignUpTest.validSignUp" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaderText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" started-at="2025-07-01T02:04:59 BST" name="tearDown" finished-at="2025-07-01T02:05:00 BST" duration-ms="826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,java.lang.String)[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" started-at="2025-07-01T02:05:12 BST" name="setUp" finished-at="2025-07-01T02:05:15 BST" duration-ms="2728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.verifyPasswordFieldMasksInput()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPasswordFieldMasksInput()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" started-at="2025-07-01T02:05:15 BST" name="verifyPasswordFieldMasksInput" description="Verify password field masks input" finished-at="2025-07-01T02:05:19 BST" depends-on-methods="contactmanagementsystem.com.sudha.tests.SignUpTest.validSignUp" duration-ms="4531" status="FAIL">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[class org.openqa.selenium.By$ById cannot be cast to class org.openqa.selenium.WebElement (org.openqa.selenium.By$ById and org.openqa.selenium.WebElement are in unnamed module of loader 'app')]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: class org.openqa.selenium.By$ById cannot be cast to class org.openqa.selenium.WebElement (org.openqa.selenium.By$ById and org.openqa.selenium.WebElement are in unnamed module of loader 'app')
+at contactmanagementsystem.com.sudha.tests.LoginTest.verifyPasswordFieldMasksInput(LoginTest.java:91)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordFieldMasksInput -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9]" started-at="2025-07-01T02:05:19 BST" name="tearDown" finished-at="2025-07-01T02:05:20 BST" duration-ms="774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- contactmanagementsystem.com.sudha.tests.LoginTest -->
+      <class name="contactmanagementsystem.com.sudha.tests.EditContactTests">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,java.lang.String)[pri:0, instance:contactmanagementsystem.com.sudha.tests.EditContactTests@895e367]" started-at="2025-07-01T02:04:44 BST" name="setUp" finished-at="2025-07-01T02:04:47 BST" duration-ms="2254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=EditContactTests.validEditContactTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.EditContactTests@895e367] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validEditContactTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.EditContactTests@895e367]" started-at="2025-07-01T02:04:47 BST" name="validEditContactTest" description="Verify user can edit an existing contact" finished-at="2025-07-01T02:04:50 BST" depends-on-methods="contactmanagementsystem.com.sudha.tests.AddContactTests.validAddContactTest, contactmanagementsystem.com.sudha.tests.LoginTest.validLoginTest" duration-ms="3315" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[First Name mismatch expected [Suresh] but found [SudhaSuresh]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: First Name mismatch expected [Suresh] but found [SudhaSuresh]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at contactmanagementsystem.com.sudha.pages.ContactPage.verifyContactDetails(ContactPage.java:113)
+at contactmanagementsystem.com.sudha.tests.EditContactTests.validEditContactTest(EditContactTests.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEditContactTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactmanagementsystem.com.sudha.tests.EditContactTests@895e367]" started-at="2025-07-01T02:04:50 BST" name="tearDown" finished-at="2025-07-01T02:04:51 BST" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validCancelEditTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.EditContactTests@895e367]" started-at="2025-07-01T02:04:51 BST" name="validCancelEditTest" description="Verify canceling an edit (if implemented)" finished-at="2025-07-01T02:04:51 BST" depends-on-methods="contactmanagementsystem.com.sudha.tests.AddContactTests.validAddContactTest, contactmanagementsystem.com.sudha.tests.LoginTest.validLoginTest, contactmanagementsystem.com.sudha.tests.EditContactTests.validEditContactTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method contactmanagementsystem.com.sudha.tests.EditContactTests.validCancelEditTest() on instance contactmanagementsystem.com.sudha.tests.EditContactTests@895e367 depends on not successfully finished methods 
+[contactmanagementsystem.com.sudha.tests.AddContactTests.validAddContactTest() on instance contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068
+contactmanagementsystem.com.sudha.tests.LoginTest.validLoginTest() on instance contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9
+contactmanagementsystem.com.sudha.tests.EditContactTests.validEditContactTest() on instance contactmanagementsystem.com.sudha.tests.EditContactTests@895e367]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method contactmanagementsystem.com.sudha.tests.EditContactTests.validCancelEditTest() on instance contactmanagementsystem.com.sudha.tests.EditContactTests@895e367 depends on not successfully finished methods 
+[contactmanagementsystem.com.sudha.tests.AddContactTests.validAddContactTest() on instance contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068
+contactmanagementsystem.com.sudha.tests.LoginTest.validLoginTest() on instance contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9
+contactmanagementsystem.com.sudha.tests.EditContactTests.validEditContactTest() on instance contactmanagementsystem.com.sudha.tests.EditContactTests@895e367]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:157)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCancelEditTest -->
+        <test-method signature="valididationCheckEditTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.EditContactTests@895e367]" started-at="2025-07-01T02:05:00 BST" name="valididationCheckEditTest" description="Validation Check Edit Contact" finished-at="2025-07-01T02:05:00 BST" depends-on-methods="contactmanagementsystem.com.sudha.tests.AddContactTests.validAddContactTest, contactmanagementsystem.com.sudha.tests.LoginTest.validLoginTest, contactmanagementsystem.com.sudha.tests.EditContactTests.validEditContactTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method contactmanagementsystem.com.sudha.tests.EditContactTests.valididationCheckEditTest() on instance contactmanagementsystem.com.sudha.tests.EditContactTests@895e367 depends on not successfully finished methods 
+[contactmanagementsystem.com.sudha.tests.AddContactTests.validAddContactTest() on instance contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068
+contactmanagementsystem.com.sudha.tests.LoginTest.validLoginTest() on instance contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9
+contactmanagementsystem.com.sudha.tests.EditContactTests.validEditContactTest() on instance contactmanagementsystem.com.sudha.tests.EditContactTests@895e367]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method contactmanagementsystem.com.sudha.tests.EditContactTests.valididationCheckEditTest() on instance contactmanagementsystem.com.sudha.tests.EditContactTests@895e367 depends on not successfully finished methods 
+[contactmanagementsystem.com.sudha.tests.AddContactTests.validAddContactTest() on instance contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068
+contactmanagementsystem.com.sudha.tests.LoginTest.validLoginTest() on instance contactmanagementsystem.com.sudha.tests.LoginTest@5f77d0f9
+contactmanagementsystem.com.sudha.tests.EditContactTests.validEditContactTest() on instance contactmanagementsystem.com.sudha.tests.EditContactTests@895e367]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:157)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valididationCheckEditTest -->
+      </class> <!-- contactmanagementsystem.com.sudha.tests.EditContactTests -->
+      <class name="contactmanagementsystem.com.sudha.tests.AddContactTests">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,java.lang.String)[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068]" started-at="2025-07-01T02:04:18 BST" name="setUp" finished-at="2025-07-01T02:04:21 BST" duration-ms="2699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AddContactTests.duplicateContactDetails()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="duplicateContactDetails()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068]" started-at="2025-07-01T02:04:21 BST" name="duplicateContactDetails" description="Verify adding duplicate contact details" finished-at="2025-07-01T02:04:27 BST" depends-on-methods="contactmanagementsystem.com.sudha.tests.LoginTest.validLoginTest" duration-ms="5530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicateContactDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068]" started-at="2025-07-01T02:04:27 BST" name="tearDown" finished-at="2025-07-01T02:04:28 BST" duration-ms="918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,java.lang.String)[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068]" started-at="2025-07-01T02:04:28 BST" name="setUp" finished-at="2025-07-01T02:04:30 BST" duration-ms="2399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AddContactTests.invalidAddContactTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidAddContactTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068]" started-at="2025-07-01T02:04:30 BST" name="invalidAddContactTest" description="Verify adding contact with missing required fields" finished-at="2025-07-01T02:04:32 BST" depends-on-methods="contactmanagementsystem.com.sudha.tests.LoginTest.validLoginTest" duration-ms="1940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidAddContactTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068]" started-at="2025-07-01T02:04:32 BST" name="tearDown" finished-at="2025-07-01T02:04:33 BST" duration-ms="788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,java.lang.String)[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068]" started-at="2025-07-01T02:04:33 BST" name="setUp" finished-at="2025-07-01T02:04:35 BST" duration-ms="2251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AddContactTests.invalidPhoneNumberTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidPhoneNumberTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068]" started-at="2025-07-01T02:04:35 BST" name="invalidPhoneNumberTest" description="Verify phone field accepts only numeric input" finished-at="2025-07-01T02:04:37 BST" depends-on-methods="contactmanagementsystem.com.sudha.tests.LoginTest.validLoginTest" duration-ms="2067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPhoneNumberTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068]" started-at="2025-07-01T02:04:37 BST" name="tearDown" finished-at="2025-07-01T02:04:38 BST" duration-ms="985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,java.lang.String)[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068]" started-at="2025-07-01T02:04:38 BST" name="setUp" finished-at="2025-07-01T02:04:40 BST" duration-ms="2236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AddContactTests.validAddContactTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validAddContactTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068]" started-at="2025-07-01T02:04:40 BST" name="validAddContactTest" description="Verify adding contact with all valid details" finished-at="2025-07-01T02:04:43 BST" depends-on-methods="contactmanagementsystem.com.sudha.tests.LoginTest.validLoginTest" duration-ms="3056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validAddContactTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068]" started-at="2025-07-01T02:04:43 BST" name="tearDown" finished-at="2025-07-01T02:04:44 BST" duration-ms="760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,java.lang.String)[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068]" started-at="2025-07-01T02:04:51 BST" name="setUp" finished-at="2025-07-01T02:04:53 BST" duration-ms="2209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AddContactTests.validateContactFormResetTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateContactFormResetTest()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068]" started-at="2025-07-01T02:04:53 BST" name="validateContactFormResetTest" description="Verify form resets after contact is added" finished-at="2025-07-01T02:04:55 BST" depends-on-methods="contactmanagementsystem.com.sudha.tests.LoginTest.validLoginTest" duration-ms="1872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContactFormResetTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactmanagementsystem.com.sudha.tests.AddContactTests@463fd068]" started-at="2025-07-01T02:04:55 BST" name="tearDown" finished-at="2025-07-01T02:04:56 BST" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- contactmanagementsystem.com.sudha.tests.AddContactTests -->
+      <class name="contactmanagementsystem.com.sudha.tests.SignUpTest">
+        <test-method is-config="true" signature="beforeEachBrowser()[pri:0, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d]" started-at="2025-07-01T02:03:42 BST" name="beforeEachBrowser" finished-at="2025-07-01T02:03:42 BST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachBrowser -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,java.lang.String)[pri:0, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d]" started-at="2025-07-01T02:03:42 BST" name="setUp" finished-at="2025-07-01T02:03:46 BST" duration-ms="3720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SignUpTest.validSignUp()[pri:1, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validSignUp()[pri:1, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d]" started-at="2025-07-01T02:03:46 BST" name="validSignUp" description="Verify sign-up with valid inputs" finished-at="2025-07-01T02:03:48 BST" duration-ms="2003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validSignUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d]" started-at="2025-07-01T02:03:48 BST" name="tearDown" finished-at="2025-07-01T02:03:50 BST" duration-ms="1320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,java.lang.String)[pri:0, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d]" started-at="2025-07-01T02:05:44 BST" name="setUp" finished-at="2025-07-01T02:05:47 BST" duration-ms="3311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SignUpTest.inValidSignUp()[pri:2, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="inValidSignUp()[pri:2, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d]" started-at="2025-07-01T02:05:47 BST" name="inValidSignUp" description="Verify registration with already registered email" finished-at="2025-07-01T02:05:48 BST" duration-ms="1205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidSignUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d]" started-at="2025-07-01T02:05:48 BST" name="tearDown" finished-at="2025-07-01T02:05:49 BST" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,java.lang.String)[pri:0, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d]" started-at="2025-07-01T02:05:49 BST" name="setUp" finished-at="2025-07-01T02:05:52 BST" duration-ms="3486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SignUpTest.blankSignUp()[pri:3, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="blankSignUp()[pri:3, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d]" started-at="2025-07-01T02:05:52 BST" name="blankSignUp" description="Verify registration with blank fields" finished-at="2025-07-01T02:05:54 BST" duration-ms="1144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankSignUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d]" started-at="2025-07-01T02:05:54 BST" name="tearDown" finished-at="2025-07-01T02:05:55 BST" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,java.lang.String)[pri:0, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d]" started-at="2025-07-01T02:05:55 BST" name="setUp" finished-at="2025-07-01T02:05:58 BST" duration-ms="3005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SignUpTest.invalidSignUpPasswordDoNotMatch()[pri:4, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidSignUpPasswordDoNotMatch()[pri:4, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d]" started-at="2025-07-01T02:05:58 BST" name="invalidSignUpPasswordDoNotMatch" description="Verify password and confirm password mismatch" finished-at="2025-07-01T02:06:00 BST" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidSignUpPasswordDoNotMatch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d]" started-at="2025-07-01T02:06:00 BST" name="tearDown" finished-at="2025-07-01T02:06:00 BST" duration-ms="779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,java.lang.String)[pri:0, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d]" started-at="2025-07-01T02:06:00 BST" name="setUp" finished-at="2025-07-01T02:06:04 BST" duration-ms="3182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SignUpTest.invalidSignUpWrongEmailId()[pri:5, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidSignUpWrongEmailId()[pri:5, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d]" started-at="2025-07-01T02:06:04 BST" name="invalidSignUpWrongEmailId" description="Verify email format validation during sign-up" finished-at="2025-07-01T02:06:05 BST" duration-ms="1189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidSignUpWrongEmailId -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactmanagementsystem.com.sudha.tests.SignUpTest@1130520d]" started-at="2025-07-01T02:06:05 BST" name="tearDown" finished-at="2025-07-01T02:06:06 BST" duration-ms="775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- contactmanagementsystem.com.sudha.tests.SignUpTest -->
+      <class name="contactmanagementsystem.com.sudha.tests.ValidationTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,java.lang.String)[pri:0, instance:contactmanagementsystem.com.sudha.tests.ValidationTest@42b3b079]" started-at="2025-07-01T02:05:30 BST" name="setUp" finished-at="2025-07-01T02:05:33 BST" duration-ms="3305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=ValidationTest.verifyFirstNameMaxCharacterLimit()[pri:0, instance:contactmanagementsystem.com.sudha.tests.ValidationTest@42b3b079] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFirstNameMaxCharacterLimit()[pri:0, instance:contactmanagementsystem.com.sudha.tests.ValidationTest@42b3b079]" started-at="2025-07-01T02:05:33 BST" name="verifyFirstNameMaxCharacterLimit" description="Verify max character limit for contact fields" finished-at="2025-07-01T02:05:36 BST" depends-on-methods="contactmanagementsystem.com.sudha.tests.DeleteContactTest.deleteContactAndRefreshTest" duration-ms="2124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFirstNameMaxCharacterLimit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactmanagementsystem.com.sudha.tests.ValidationTest@42b3b079]" started-at="2025-07-01T02:05:36 BST" name="tearDown" finished-at="2025-07-01T02:05:36 BST" duration-ms="777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,java.lang.String)[pri:0, instance:contactmanagementsystem.com.sudha.tests.ValidationTest@42b3b079]" started-at="2025-07-01T02:05:36 BST" name="setUp" finished-at="2025-07-01T02:05:39 BST" duration-ms="3049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=ValidationTest.verifyUnicodeAndEmojiInAddress()[pri:0, instance:contactmanagementsystem.com.sudha.tests.ValidationTest@42b3b079] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUnicodeAndEmojiInAddress()[pri:0, instance:contactmanagementsystem.com.sudha.tests.ValidationTest@42b3b079]" started-at="2025-07-01T02:05:39 BST" name="verifyUnicodeAndEmojiInAddress" description="Verify Unicode and emojis in address field" finished-at="2025-07-01T02:05:43 BST" depends-on-methods="contactmanagementsystem.com.sudha.tests.DeleteContactTest.deleteContactAndRefreshTest" duration-ms="3126" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Address not containing full Unicode value expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Address not containing full Unicode value expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at contactmanagementsystem.com.sudha.tests.ValidationTest.verifyUnicodeAndEmojiInAddress(ValidationTest.java:61)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnicodeAndEmojiInAddress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactmanagementsystem.com.sudha.tests.ValidationTest@42b3b079]" started-at="2025-07-01T02:05:43 BST" name="tearDown" finished-at="2025-07-01T02:05:44 BST" duration-ms="968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- contactmanagementsystem.com.sudha.tests.ValidationTest -->
+    </test> <!-- Firefox Tests -->
+  </suite> <!-- ContactManagementSuite -->
+</testng-results>
