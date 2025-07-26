@@ -27,12 +27,12 @@ pipeline {
         always {
             echo 'Publishing Extent Report...'
             publishHTML(target: [
-                allowMissing: true,
-                alwaysLinkToLastBuild: true,
-                keepAll: true,
-                reportDir: 'test-output/ContactManagementSuite',
-                reportFiles: 'ExtentReport.html',
-                reportName: 'Extent Report'
+                 reportDir: 'test-output',
+	            reportFiles: 'ExtentReport.html',
+	            reportName: 'Extent Report',
+	            keepAll: true,
+	            alwaysLinkToLastBuild: true,
+	            allowMissing: true
             ])
         }
     }
